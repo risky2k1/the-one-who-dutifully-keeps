@@ -1,0 +1,13 @@
+{
+    "main-menu": {
+        "name": "Menu principal",
+        "home": "Accueil",
+        "purchase": "Acheter",
+        "blog": "Blog",
+        "galleries": "Galeries",
+        "contact": "Contact"
+    },
+    "social": {
+        "name": "Réseaux sociaux"
+    }
+}

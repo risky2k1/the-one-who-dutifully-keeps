@@ -1,0 +1,82 @@
+[
+    {
+        "name": "L'essor de l'informatique quantique : IBM dévoile un processeur de 1 000 qubits",
+        "description": "IBM annonce une percée majeure avec son nouveau processeur quantique de 1 000 qubits, promettant de résoudre des problèmes complexes en découverte de médicaments, modélisation financière et recherche climatique qui prendraient des millénaires aux ordinateurs classiques."
+    },
+    {
+        "name": "Apple Vision Pro 2 : l'avenir de l'informatique spatiale est arrivé",
+        "description": "Le casque Vision Pro de deuxième génération d'Apple arrive avec une meilleure autonomie, un design plus léger et des capacités révolutionnaires de suivi oculaire qui rendent les réunions virtuelles plus naturelles que jamais."
+    },
+    {
+        "name": "ChatGPT-5 est lancé : un nouveau modèle d'IA montre un raisonnement de niveau humain",
+        "description": "Le dernier modèle linguistique d'OpenAI démontre des capacités de raisonnement inédites, résout des preuves mathématiques complexes et écrit du code avec très peu d'erreurs, suscitant à la fois enthousiasme et inquiétudes éthiques dans la communauté technologique."
+    },
+    {
+        "name": "La conduite entièrement autonome de Tesla enfin approuvée pour les autoroutes en Californie",
+        "description": "Après des années de développement et d'essais, Tesla obtient l'autorisation réglementaire pour la conduite entièrement autonome sur les autoroutes en Californie, marquant un moment charnière pour l'industrie des véhicules autonomes."
+    },
+    {
+        "name": "Fuite majeure de cybersécurité : 500 millions d'enregistrements exposés par une mauvaise configuration du stockage cloud",
+        "description": "Un compartiment AWS S3 mal configuré entraîne l'une des plus grandes fuites de données de l'histoire, exposant les informations personnelles d'utilisateurs de plusieurs entreprises du Fortune 500 et soulignant l'importance des bonnes pratiques de sécurité cloud."
+    },
+    {
+        "name": "Microsoft lance la revue de code assistée par IA : 40 % de bugs en production en moins",
+        "description": "Le nouveau système de revue de code de Microsoft, intégré à GitHub, détecte les bugs potentiels et les vulnérabilités de sécurité avant le déploiement, améliorant fortement la qualité du code dans des milliers de dépôts."
+    },
+    {
+        "name": "Les robots de Boston Dynamics travaillent désormais dans les entrepôts d'Amazon",
+        "description": "Amazon déploie 10 000 robots Boston Dynamics dans ses centres logistiques, augmentant la vitesse de traitement des colis de 300 % et réduisant de moitié les blessures au travail."
+    },
+    {
+        "name": "Les nouveaux gants VR de Meta permettent de sentir les objets virtuels",
+        "description": "Meta dévoile des gants haptiques offrant un retour tactile réaliste en réalité virtuelle, permettant aux utilisateurs de ressentir textures, températures et résistance lorsqu'ils interagissent avec des objets numériques."
+    },
+    {
+        "name": "Neuralink commence les essais humains : le premier patient contrôle un ordinateur par la pensée",
+        "description": "La société d'interface cerveau‑ordinateur d'Elon Musk montre qu'un patient paralysé peut jouer aux échecs et naviguer sur Internet uniquement par la pensée, ouvrant de nouvelles possibilités pour les technologies d'assistance."
+    },
+    {
+        "name": "Project Starline de Google : appels vidéo 3D sans casque",
+        "description": "La percée de Google dans l'affichage à champ lumineux permet des conversations vidéo 3D réalistes sans casques VR, rendant la communication à distance aussi naturelle que d'être assis face à face."
+    },
+    {
+        "name": "Le GPU NVIDIA H200 bat des records d'entraînement IA",
+        "description": "Le dernier GPU de centre de données de NVIDIA entraîne les grands modèles linguistiques cinq fois plus vite que la génération précédente, permettant des modèles plus sophistiqués tout en réduisant la consommation d'énergie de 40 %."
+    },
+    {
+        "name": "Ethereum 3.0 est lancé : 100 000 transactions par seconde atteintes",
+        "description": "La mise à niveau Ethereum très attendue tient sa promesse de scalabilité, traitant 100 000 transactions par seconde tout en maintenant la décentralisation et en réduisant les frais de gas à quelques centimes."
+    },
+    {
+        "name": "Starship de SpaceX atterrit avec succès sur la Lune avec des astronautes de la NASA",
+        "description": "Starship réalise son premier alunissage habité, déposant des astronautes de la NASA au pôle sud lunaire dans le cadre de la mission Artemis III, marquant le retour de l'humanité après 50 ans."
+    },
+    {
+        "name": "La livraison par drone d'Amazon s'étend à 100 villes aux États‑Unis",
+        "description": "Amazon Prime Air atteint un jalon : les livraisons autonomes par drone sont désormais disponibles dans 100 villes américaines, avec des colis livrés en moins de 30 minutes et un taux de réussite de 99,9 %."
+    },
+    {
+        "name": "Traitement révolutionnaire du cancer : l'IA découvre des combinaisons de médicaments personnalisées",
+        "description": "AlphaFold 3 de DeepMind identifie des combinaisons de médicaments optimales pour chaque patient atteint de cancer selon son profil génétique, conduisant à des taux de rémission 80 % plus élevés dans les essais cliniques."
+    },
+    {
+        "name": "Les écrans OLED transparents de Samsung transforment le commerce de détail",
+        "description": "La nouvelle technologie OLED transparente de Samsung transforme les vitrines en écrans interactifs, affichant des informations produit et des essayages virtuels tout en laissant voir les produits physiques."
+    },
+    {
+        "name": "Les robotaxis Waymo opèrent désormais dans 25 grandes villes",
+        "description": "Waymo, filiale d'Alphabet, étend son service de taxis entièrement autonomes à 25 villes, effectuant plus d'un million de courses par jour sans accidents attribués au système de conduite autonome."
+    },
+    {
+        "name": "La peinture solaire atteint 30 % d'efficacité : chaque bâtiment peut produire de l'énergie",
+        "description": "Une avancée dans les cellules solaires en perovskite permet des panneaux solaires peignables à 30 % d'efficacité, rendant économiquement viable la transformation de n'importe quelle surface en générateur d'énergie."
+    },
+    {
+        "name": "L'hôtel spatial de Blue Origin accueille ses premiers touristes",
+        "description": "Blue Origin, la société de Jeff Bezos, ouvre le premier hôtel spatial commercial en orbite basse, proposant des séjours de 10 jours avec des vues spectaculaires de la Terre pour 1 million de dollars par personne."
+    },
+    {
+        "name": "Des enseignants IA en Corée du Sud : une éducation personnalisée pour chaque élève",
+        "description": "La Corée du Sud déploie des assistants pédagogiques basés sur l'IA dans toutes les écoles publiques, offrant des parcours d'apprentissage personnalisés adaptés au rythme et au style de chaque élève, améliorant les résultats aux tests de 35 %."
+    }
+]

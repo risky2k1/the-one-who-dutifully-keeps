@@ -1,0 +1,62 @@
+{
+    "Tech Conference 2024": {
+        "name": "Teknoloji Konferansı 2024",
+        "description": "Sektör profesyonelleri için açılış konuşmaları, atölyeler ve ağ kurma fırsatları içeren yıllık teknoloji konferansı."
+    },
+    "Product Launch Event": {
+        "name": "Ürün Lansman Etkinliği",
+        "description": "En yeni ürün serimizin özel tanıtımı; canlı demolar ve geliştirme ekibiyle soru-cevap oturumları."
+    },
+    "Team Building Retreat": {
+        "name": "Takım Oluşturma Kampı",
+        "description": "Şirket genelinde düzenlenen, iş birliği, yenilik ve takım bağlarını rahat bir ortamda güçlendirmeye odaklanan kamp."
+    },
+    "Innovation Summit": {
+        "name": "İnovasyon Zirvesi",
+        "description": "Gelişen teknolojileri ve gelecekteki eğilimleri tartışmak için düşünce liderlerini bir araya getiren iki günlük zirve."
+    },
+    "Developer Meetup": {
+        "name": "Geliştirici Buluşması",
+        "description": "Bilgi paylaşmak, en iyi uygulamaları tartışmak ve açık kaynak projelerinde iş birliği yapmak için geliştiricilerin aylık buluşması."
+    },
+    "AI Workshop Series": {
+        "name": "Yapay Zeka Atölye Serisi",
+        "description": "Makine öğrenimi, sinir ağları ve pratik AI uygulamalarını kapsayan uygulamalı atölyeler."
+    },
+    "Startup Showcase": {
+        "name": "Startup Vitrini",
+        "description": "Yükselen startup'ların yenilikçi çözümlerini yatırımcılar ve sektör uzmanlarına sunmaları için bir platform."
+    },
+    "Company Anniversary": {
+        "name": "Şirket Yıl Dönümü",
+        "description": "Başarımızı mümkün kılan çalışanlar, ortaklar ve müşterilerle yolculuğumuzu kutlama."
+    },
+    "Hackathon Weekend": {
+        "name": "Hackathon Haftasonu",
+        "description": "Takımların gerçek dünya sorunlarına yenilikçi çözümler geliştirmek için yarıştığı 48 saatlik kodlama maratonu."
+    },
+    "Industry Awards Night": {
+        "name": "Sektör Ödül Gecesi",
+        "description": "Teknoloji alanında çeşitli kategorilerde mükemmeliyet ve inovasyonu ödüllendiren yıllık tören."
+    },
+    "New Office Opening": {
+        "name": "Yeni Ofis Açılışı",
+        "description": "Yaratıcılığı ve iş birliğini teşvik etmek için tasarlanmış son teknoloji tesisimizin büyük açılışı."
+    },
+    "Community Outreach": {
+        "name": "Topluluk Çalışmaları",
+        "description": "Eğitim ve teknolojiye erişim programları yoluyla topluma geri vermeye odaklanan girişimler."
+    },
+    "Tech Talks Series": {
+        "name": "Teknoloji Söyleşileri Serisi",
+        "description": "Sektör uzmanlarının en yeni teknolojiler ve en iyi uygulamalar hakkında haftalık sunumları."
+    },
+    "Partnership Celebration": {
+        "name": "Ortaklık Kutlaması",
+        "description": "İnovasyonu ve karşılıklı büyümeyi destekleyen stratejik ortaklıkların anısına düzenlenen kutlama."
+    },
+    "Year in Review": {
+        "name": "Yılın Değerlendirmesi",
+        "description": "Başarıları ve dönüm noktalarını vurgulayan ve geleceğe yönelik vizyon belirleyen yıllık değerlendirme."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "main-menu": {
+        "name": "Menu chính",
+        "home": "Trang chủ",
+        "purchase": "Mua",
+        "blog": "Blog",
+        "galleries": "Bộ sưu tập",
+        "contact": "Liên hệ"
+    },
+    "social": {
+        "name": "Mạng xã hội"
+    }
+}

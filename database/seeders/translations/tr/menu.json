@@ -1,0 +1,13 @@
+{
+    "main-menu": {
+        "name": "Ana menü",
+        "home": "Ana Sayfa",
+        "purchase": "Satın Al",
+        "blog": "Blog",
+        "galleries": "Galeriler",
+        "contact": "İletişim"
+    },
+    "social": {
+        "name": "Sosyal"
+    }
+}

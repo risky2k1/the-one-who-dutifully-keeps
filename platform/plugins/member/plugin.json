@@ -1,0 +1,11 @@
+{
+    "id": "botble/member",
+    "name": "Member",
+    "namespace": "Botble\\Member\\",
+    "provider": "Botble\\Member\\Providers\\MemberServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "2.0.9",
+    "description": "Manage front-end members with registration, login, and profiles.",
+    "minimum_core_version": "7.4.0"
+}

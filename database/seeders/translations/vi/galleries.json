@@ -1,0 +1,17 @@
+{
+    "Tech Conference 2024": {"name": "Hội nghị Công nghệ 2024", "description": "Hội nghị công nghệ thường niên với các bài phát biểu chính, workshop và cơ hội kết nối dành cho chuyên gia trong ngành."},
+    "Product Launch Event": {"name": "Sự kiện ra mắt sản phẩm", "description": "Ra mắt độc quyền dòng sản phẩm mới nhất với trình diễn trực tiếp và phiên hỏi đáp cùng đội ngũ phát triển."},
+    "Team Building Retreat": {"name": "Chuyến retreat xây dựng đội ngũ", "description": "Kỳ retreat toàn công ty tập trung vào hợp tác, đổi mới và gắn kết đội ngũ trong môi trường thư giãn."},
+    "Innovation Summit": {"name": "Hội nghị Thượng đỉnh Đổi mới", "description": "Hội nghị kéo dài hai ngày quy tụ các nhà lãnh đạo tư tưởng để thảo luận công nghệ mới nổi và xu hướng tương lai."},
+    "Developer Meetup": {"name": "Gặp gỡ lập trình viên", "description": "Buổi gặp gỡ hàng tháng của lập trình viên để chia sẻ kiến thức, thảo luận thực hành tốt và hợp tác trong các dự án mã nguồn mở."},
+    "AI Workshop Series": {"name": "Chuỗi workshop AI", "description": "Các workshop thực hành về học máy, mạng nơ-ron và các ứng dụng AI thực tiễn."},
+    "Startup Showcase": {"name": "Trình diễn startup", "description": "Nền tảng để các startup mới nổi trình bày giải pháp sáng tạo trước nhà đầu tư và chuyên gia ngành."},
+    "Company Anniversary": {"name": "Kỷ niệm công ty", "description": "Kỷ niệm hành trình cùng nhân viên, đối tác và khách hàng đã góp phần làm nên thành công."},
+    "Hackathon Weekend": {"name": "Cuối tuần Hackathon", "description": "Marathon lập trình 48 giờ nơi các đội thi đấu xây dựng giải pháp sáng tạo cho các vấn đề thực tế."},
+    "Industry Awards Night": {"name": "Đêm trao giải ngành", "description": "Lễ trao giải thường niên tôn vinh sự xuất sắc và đổi mới trong công nghệ ở nhiều hạng mục."},
+    "New Office Opening": {"name": "Khai trương văn phòng mới", "description": "Khai trương cơ sở hiện đại của chúng tôi, được thiết kế để thúc đẩy sáng tạo và hợp tác."},
+    "Community Outreach": {"name": "Hoạt động cộng đồng", "description": "Các sáng kiến hướng tới đóng góp cho cộng đồng thông qua giáo dục và chương trình tiếp cận công nghệ."},
+    "Tech Talks Series": {"name": "Chuỗi Tech Talks", "description": "Các buổi trình bày hàng tuần của chuyên gia ngành về công nghệ tiên tiến và thực hành tốt."},
+    "Partnership Celebration": {"name": "Lễ kỷ niệm hợp tác", "description": "Kỷ niệm các mối quan hệ hợp tác chiến lược thúc đẩy đổi mới và tăng trưởng cùng có lợi."},
+    "Year in Review": {"name": "Tổng kết năm", "description": "Tổng kết thường niên nêu bật thành tựu, cột mốc và định hướng tầm nhìn cho tương lai."}
+}

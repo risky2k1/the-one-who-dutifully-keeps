@@ -1,0 +1,26 @@
+{
+    "Homepage": {
+        "name": "Ana Sayfa"
+    },
+    "Blog": {
+        "name": "Blog"
+    },
+    "Contact": {
+        "name": "İletişim"
+    },
+    "Cookie Policy": {
+        "name": "Çerez Politikası"
+    },
+    "Galleries": {
+        "name": "Galeriler"
+    },
+    "About Us": {
+        "name": "Hakkımızda"
+    },
+    "Privacy Policy": {
+        "name": "Gizlilik Politikası"
+    },
+    "Terms of Service": {
+        "name": "Hizmet Şartları"
+    }
+}

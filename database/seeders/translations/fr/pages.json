@@ -1,0 +1,26 @@
+{
+    "Homepage": {
+        "name": "Accueil"
+    },
+    "Blog": {
+        "name": "Blog"
+    },
+    "Contact": {
+        "name": "Contact"
+    },
+    "Cookie Policy": {
+        "name": "Politique de cookies"
+    },
+    "Galleries": {
+        "name": "Galeries"
+    },
+    "About Us": {
+        "name": "À propos"
+    },
+    "Privacy Policy": {
+        "name": "Politique de confidentialité"
+    },
+    "Terms of Service": {
+        "name": "Conditions d'utilisation"
+    }
+}

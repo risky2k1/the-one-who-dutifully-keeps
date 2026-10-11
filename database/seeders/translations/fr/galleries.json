@@ -1,0 +1,62 @@
+{
+    "Tech Conference 2024": {
+        "name": "Conférence Tech 2024",
+        "description": "Conférence technologique annuelle avec des keynotes, des ateliers et des opportunités de réseautage pour les professionnels du secteur."
+    },
+    "Product Launch Event": {
+        "name": "Événement de lancement produit",
+        "description": "Présentation exclusive de notre dernière gamme de produits avec démonstrations en direct et sessions de questions-réponses avec l'équipe de développement."
+    },
+    "Team Building Retreat": {
+        "name": "Retraite de cohésion d'équipe",
+        "description": "Retraite à l'échelle de l'entreprise axée sur la collaboration, l'innovation et le renforcement des liens d'équipe dans un cadre détendu."
+    },
+    "Innovation Summit": {
+        "name": "Sommet de l'innovation",
+        "description": "Sommet de deux jours réunissant des leaders d'opinion pour discuter des technologies émergentes et des tendances futures."
+    },
+    "Developer Meetup": {
+        "name": "Rencontre des développeurs",
+        "description": "Rencontre mensuelle de développeurs pour partager des connaissances, discuter des bonnes pratiques et collaborer sur des projets open source."
+    },
+    "AI Workshop Series": {
+        "name": "Série d'ateliers IA",
+        "description": "Ateliers pratiques couvrant l'apprentissage automatique, les réseaux de neurones et les applications concrètes de l'IA."
+    },
+    "Startup Showcase": {
+        "name": "Vitrine des startups",
+        "description": "Plateforme permettant aux startups émergentes de présenter leurs solutions innovantes aux investisseurs et aux experts du secteur."
+    },
+    "Company Anniversary": {
+        "name": "Anniversaire de l'entreprise",
+        "description": "Célébration de notre parcours avec les employés, partenaires et clients qui ont rendu notre succès possible."
+    },
+    "Hackathon Weekend": {
+        "name": "Week-end hackathon",
+        "description": "Marathon de programmation de 48 heures où les équipes s'affrontent pour créer des solutions innovantes à des problèmes réels."
+    },
+    "Industry Awards Night": {
+        "name": "Soirée des prix de l'industrie",
+        "description": "Cérémonie annuelle récompensant l'excellence et l'innovation technologique dans diverses catégories."
+    },
+    "New Office Opening": {
+        "name": "Inauguration du nouveau bureau",
+        "description": "Inauguration de notre installation ultramoderne conçue pour favoriser la créativité et la collaboration."
+    },
+    "Community Outreach": {
+        "name": "Actions communautaires",
+        "description": "Initiatives visant à redonner à la communauté par l'éducation et des programmes d'accès à la technologie."
+    },
+    "Tech Talks Series": {
+        "name": "Série Tech Talks",
+        "description": "Présentations hebdomadaires d'experts du secteur sur les technologies de pointe et les bonnes pratiques."
+    },
+    "Partnership Celebration": {
+        "name": "Célébration du partenariat",
+        "description": "Commémoration de partenariats stratégiques qui stimulent l'innovation et la croissance mutuelle."
+    },
+    "Year in Review": {
+        "name": "Bilan de l'année",
+        "description": "Rétrospective annuelle mettant en avant les réalisations, les jalons et la vision pour l'avenir."
+    }
+}

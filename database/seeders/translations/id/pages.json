@@ -1,0 +1,26 @@
+{
+    "Homepage": {
+        "name": "Beranda"
+    },
+    "Blog": {
+        "name": "Blog"
+    },
+    "Contact": {
+        "name": "Kontak"
+    },
+    "Cookie Policy": {
+        "name": "Kebijakan Cookie"
+    },
+    "Galleries": {
+        "name": "Galeri"
+    },
+    "About Us": {
+        "name": "Tentang Kami"
+    },
+    "Privacy Policy": {
+        "name": "Kebijakan Privasi"
+    },
+    "Terms of Service": {
+        "name": "Ketentuan Layanan"
+    }
+}

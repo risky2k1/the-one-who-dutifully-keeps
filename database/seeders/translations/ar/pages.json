@@ -1,0 +1,26 @@
+{
+    "Homepage": {
+        "name": "الرئيسية"
+    },
+    "Blog": {
+        "name": "مدونة"
+    },
+    "Contact": {
+        "name": "اتصل بنا"
+    },
+    "Cookie Policy": {
+        "name": "سياسة ملفات تعريف الارتباط"
+    },
+    "Galleries": {
+        "name": "معارض"
+    },
+    "About Us": {
+        "name": "معلومات عنا"
+    },
+    "Privacy Policy": {
+        "name": "سياسة الخصوصية"
+    },
+    "Terms of Service": {
+        "name": "شروط الخدمة"
+    }
+}

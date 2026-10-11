@@ -1,0 +1,62 @@
+{
+    "Tech Conference 2024": {
+        "name": "Konferensi Teknologi 2024",
+        "description": "Konferensi teknologi tahunan dengan pembicara utama, lokakarya, dan peluang jejaring bagi profesional industri."
+    },
+    "Product Launch Event": {
+        "name": "Acara peluncuran produk",
+        "description": "Peluncuran eksklusif lini produk terbaru kami dengan demo langsung dan sesi tanya jawab bersama tim pengembangan."
+    },
+    "Team Building Retreat": {
+        "name": "Retret pembentukan tim",
+        "description": "Retret tingkat perusahaan yang berfokus pada kolaborasi, inovasi, dan memperkuat ikatan tim dalam suasana santai."
+    },
+    "Innovation Summit": {
+        "name": "KTT Inovasi",
+        "description": "KTT dua hari yang mempertemukan para pemimpin pemikiran untuk membahas teknologi baru dan tren masa depan."
+    },
+    "Developer Meetup": {
+        "name": "Pertemuan pengembang",
+        "description": "Pertemuan bulanan para pengembang untuk berbagi pengetahuan, membahas praktik terbaik, dan berkolaborasi pada proyek sumber terbuka."
+    },
+    "AI Workshop Series": {
+        "name": "Seri lokakarya AI",
+        "description": "Lokakarya praktik yang membahas pembelajaran mesin, jaringan saraf, dan aplikasi AI yang nyata."
+    },
+    "Startup Showcase": {
+        "name": "Pameran startup",
+        "description": "Platform bagi startup baru untuk mempresentasikan solusi inovatif kepada investor dan pakar industri."
+    },
+    "Company Anniversary": {
+        "name": "Ulang tahun perusahaan",
+        "description": "Merayakan perjalanan kami bersama karyawan, mitra, dan pelanggan yang membuat kesuksesan kami terwujud."
+    },
+    "Hackathon Weekend": {
+        "name": "Akhir pekan hackathon",
+        "description": "Maraton coding 48 jam di mana tim bersaing membangun solusi inovatif untuk masalah dunia nyata."
+    },
+    "Industry Awards Night": {
+        "name": "Malam penghargaan industri",
+        "description": "Upacara tahunan yang mengakui keunggulan dan inovasi teknologi dalam berbagai kategori."
+    },
+    "New Office Opening": {
+        "name": "Pembukaan kantor baru",
+        "description": "Pembukaan besar fasilitas modern kami yang dirancang untuk mendorong kreativitas dan kolaborasi."
+    },
+    "Community Outreach": {
+        "name": "Program komunitas",
+        "description": "Inisiatif yang berfokus pada memberi kembali kepada komunitas melalui pendidikan dan program akses teknologi."
+    },
+    "Tech Talks Series": {
+        "name": "Seri Tech Talks",
+        "description": "Presentasi mingguan oleh pakar industri tentang teknologi mutakhir dan praktik terbaik."
+    },
+    "Partnership Celebration": {
+        "name": "Perayaan kemitraan",
+        "description": "Memperingati kemitraan strategis yang mendorong inovasi dan pertumbuhan bersama."
+    },
+    "Year in Review": {
+        "name": "Tinjauan akhir tahun",
+        "description": "Tinjauan tahunan yang menyoroti pencapaian, tonggak, dan penetapan visi untuk masa depan."
+    }
+}

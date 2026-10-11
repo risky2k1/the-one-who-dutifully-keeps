@@ -1,0 +1,11 @@
+{
+    "id": "botble/block",
+    "name": "Block",
+    "namespace": "Botble\\Block\\",
+    "provider": "Botble\\Block\\Providers\\BlockServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "2.0.9",
+    "description": "Create reusable HTML or text blocks to embed across your theme.",
+    "minimum_core_version": "7.4.0"
+}

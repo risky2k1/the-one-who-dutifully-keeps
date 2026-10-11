@@ -1,0 +1,26 @@
+{
+    "Homepage": {
+        "name": "Trang chủ"
+    },
+    "Blog": {
+        "name": "Blog"
+    },
+    "Contact": {
+        "name": "Liên hệ"
+    },
+    "Cookie Policy": {
+        "name": "Chính sách cookie"
+    },
+    "Galleries": {
+        "name": "Bộ sưu tập"
+    },
+    "About Us": {
+        "name": "Về chúng tôi"
+    },
+    "Privacy Policy": {
+        "name": "Chính sách bảo mật"
+    },
+    "Terms of Service": {
+        "name": "Điều khoản dịch vụ"
+    }
+}

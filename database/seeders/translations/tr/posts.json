@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Kuantum bilişimin yükselişi: IBM 1000 qubitlik işlemciyi tanıttı",
+        "description": "IBM, 1000 qubitlik yeni kuantum işlemcisiyle büyük bir atılım duyurdu; bu işlemci ilaç keşfi, finansal modelleme ve iklim araştırmalarındaki karmaşık sorunları, klasik bilgisayarların bin yıllar sürecek hesaplamalarıyla çözecek."
+    },
+    {
+        "name": "Apple Vision Pro 2: Mekânsal bilişimin geleceği geldi",
+        "description": "Apple'ın ikinci nesil Vision Pro başlığı, daha uzun pil ömrü, daha hafif tasarım ve sanal toplantıları her zamankinden daha doğal kılan devrim niteliğinde göz takibi yetenekleriyle piyasaya çıktı."
+    },
+    {
+        "name": "ChatGPT-5 yayınlandı: Yeni AI modeli insan düzeyinde akıl yürütme gösteriyor",
+        "description": "OpenAI'nin en yeni dil modeli benzersiz akıl yürütme yetenekleri sergiliyor; karmaşık matematiksel kanıtları çözüyor ve çok az hatayla kod yazıyor, teknoloji topluluğunda hem heyecan hem de etik kaygılar doğuruyor."
+    },
+    {
+        "name": "Tesla'nın Tam Otonom Sürüşü California otoyolları için nihayet onaylandı",
+        "description": "Yıllar süren geliştirme ve testlerin ardından Tesla, California otoyollarında tamamen otonom sürüş için düzenleyici onay aldı; bu, otonom araç endüstrisi için dönüm noktasıdır."
+    },
+    {
+        "name": "Büyük siber güvenlik ihlali: Bulut depolama yapılandırma hatasıyla 500 milyon kayıt açığa çıktı",
+        "description": "Yanlış yapılandırılmış bir AWS S3 bucket'ı, tarihteki en büyük veri ihlallerinden birine yol açarak birçok Fortune 500 şirketinin kullanıcılarına ait kişisel bilgileri ifşa etti ve bulut güvenliği en iyi uygulamalarının önemini vurguladı."
+    },
+    {
+        "name": "Microsoft AI destekli kod incelemesi sunuyor: üretim hatalarında %40 azalma",
+        "description": "GitHub'a entegre edilen Microsoft'un yeni AI kod inceleme sistemi, dağıtımdan önce olası hataları ve güvenlik açıklarını yakalayarak binlerce depoda kod kalitesini ciddi ölçüde iyileştiriyor."
+    },
+    {
+        "name": "Boston Dynamics robotları artık Amazon depolarında çalışıyor",
+        "description": "Amazon, Boston Dynamics'in 10.000 robotunu lojistik merkezlerinde devreye alarak paket işlemeyi %300 hızlandırdı ve işyeri yaralanmalarını yarıya indirdi."
+    },
+    {
+        "name": "Meta'nın yeni VR eldivenleri sanal nesneleri hissettiriyor",
+        "description": "Meta, sanal gerçeklikte gerçekçi dokunsal geri bildirim sağlayan eldivenler tanıttı; kullanıcılar dijital nesnelerle etkileşirken doku, sıcaklık ve direnç hissedebiliyor."
+    },
+    {
+        "name": "Neuralink insan denemelerine başladı: ilk hasta düşünceleriyle bilgisayar kontrol ediyor",
+        "description": "Elon Musk'ın beyin‑bilgisayar arayüzü şirketi, felçli bir hastanın yalnızca düşünceleriyle satranç oynadığını ve internette gezindiğini başarılı şekilde göstererek yardımcı teknolojiler için yeni olasılıklar açtı."
+    },
+    {
+        "name": "Google'ın Project Starline'ı: başlıksız 3D video görüşmeleri",
+        "description": "Google'ın ışık alanı görüntüleme teknolojisindeki atılımı, VR başlığı olmadan canlı 3D video konuşmalarını mümkün kılıyor ve uzaktan iletişimi aynı masada oturuyormuş gibi doğal hale getiriyor."
+    },
+    {
+        "name": "NVIDIA H200 GPU yapay zeka eğitiminde rekor kırdı",
+        "description": "NVIDIA'nın en yeni veri merkezi GPU'su, büyük dil modellerini önceki nesle göre 5 kat daha hızlı eğitiyor; araştırmacıların daha gelişmiş AI modelleri geliştirmesine olanak tanırken enerji tüketimini %40 azaltıyor."
+    },
+    {
+        "name": "Ethereum 3.0 çıktı: saniyede 100.000 işlem elde edildi",
+        "description": "Uzun zamandır beklenen Ethereum yükseltmesi ölçeklenebilirlik vaadini yerine getiriyor; merkeziyetsizliği korurken saniyede 100.000 işlem işliyor ve gas ücretlerini birkaç sente düşürüyor."
+    },
+    {
+        "name": "SpaceX Starship NASA astronotlarıyla Ay'a başarıyla indi",
+        "description": "SpaceX'in Starship'i, Artemis III görevinin bir parçası olarak NASA astronotlarını Ay'ın güney kutbuna taşıyarak ilk mürettebatlı ay inişini gerçekleştirdi ve insanlığın 50 yıl sonra dönüşünü işaretledi."
+    },
+    {
+        "name": "Amazon'un drone teslimatı ABD'de 100 şehre genişledi",
+        "description": "Amazon Prime Air, otonom drone teslimatlarını ABD'deki 100 şehirde kullanılabilir hale getirerek önemli bir kilometre taşına ulaştı; paketler 30 dakikadan kısa sürede %99,9 başarı oranıyla teslim ediliyor."
+    },
+    {
+        "name": "Devrim niteliğinde kanser tedavisi: AI kişiye özel ilaç kombinasyonları keşfediyor",
+        "description": "DeepMind'ın AlphaFold 3'ü, kanser hastaları için genetik profillerine göre optimal ilaç kombinasyonlarını belirleyerek klinik denemelerde %80 daha yüksek remisyon oranlarına yol açtı."
+    },
+    {
+        "name": "Samsung'un şeffaf OLED ekranları perakende alışverişi dönüştürüyor",
+        "description": "Samsung'un yeni şeffaf OLED teknolojisi vitrinleri interaktif ekranlara dönüştürüyor; ürün bilgilerini ve sanal denemeleri gösterirken fiziksel ürünlerin görünürlüğünü koruyor."
+    },
+    {
+        "name": "Waymo robotaksiler şimdi 25 büyük şehirde çalışıyor",
+        "description": "Alphabet'in Waymo'su tamamen otonom taksi hizmetini 25 şehre genişleterek günde 1 milyondan fazla yolculuk gerçekleştiriyor ve kendi kendine sürüş sistemine atfedilen sıfır kazayla bunu yapıyor."
+    },
+    {
+        "name": "Güneş boyası %30 verimliliğe ulaştı: her bina enerji üretebilir",
+        "description": "Perovskit güneş hücresi teknolojisindeki atılım, %30 verimliliğe sahip boyanabilir güneş panellerini mümkün kılıyor ve her yüzeyi enerji üreticisine dönüştürmeyi ekonomik hale getiriyor."
+    },
+    {
+        "name": "Blue Origin'in uzay oteli ilk turistlerini ağırladı",
+        "description": "Jeff Bezos'un Blue Origin'i, alçak Dünya yörüngesinde ilk ticari uzay otelini açıyor; kişi başı 1 milyon dolar karşılığında 10 günlük konaklama ve Dünya'nın muhteşem manzaralarını sunuyor."
+    },
+    {
+        "name": "Güney Kore'de AI öğretmenler: her öğrenci için kişiselleştirilmiş eğitim",
+        "description": "Güney Kore, tüm devlet okullarında AI destekli öğretim asistanlarını devreye alarak her öğrencinin hızına ve öğrenme tarzına uyum sağlayan kişiselleştirilmiş öğrenme yolları sunuyor ve test skorlarını %35 artırıyor."
+    }
+]

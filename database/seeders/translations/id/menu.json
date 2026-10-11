@@ -1,0 +1,13 @@
+{
+    "main-menu": {
+        "name": "Menu utama",
+        "home": "Beranda",
+        "purchase": "Beli",
+        "blog": "Blog",
+        "galleries": "Galeri",
+        "contact": "Kontak"
+    },
+    "social": {
+        "name": "Sosial"
+    }
+}

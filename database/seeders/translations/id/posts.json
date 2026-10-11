@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Kebangkitan komputasi kuantum: IBM mengungkap prosesor 1.000 qubit",
+        "description": "IBM mengumumkan terobosan besar dengan prosesor kuantum 1.000 qubit baru, menjanjikan pemecahan masalah kompleks dalam penemuan obat, pemodelan keuangan, dan riset iklim yang akan memerlukan ribuan tahun bagi komputer klasik."
+    },
+    {
+        "name": "Apple Vision Pro 2: Masa depan komputasi spasial telah tiba",
+        "description": "Headset Vision Pro generasi kedua Apple diluncurkan dengan daya tahan baterai yang lebih baik, desain lebih ringan, dan kemampuan pelacakan mata revolusioner yang membuat rapat virtual terasa lebih alami dari sebelumnya."
+    },
+    {
+        "name": "ChatGPT-5 dirilis: Model AI baru menunjukkan penalaran setara manusia",
+        "description": "Model bahasa terbaru OpenAI menunjukkan kemampuan penalaran yang belum pernah ada, menyelesaikan pembuktian matematika kompleks dan menulis kode dengan sangat sedikit kesalahan, memunculkan antusiasme sekaligus kekhawatiran etis di komunitas teknologi."
+    },
+    {
+        "name": "Full Self-Driving Tesla akhirnya disetujui untuk jalan tol di California",
+        "description": "Setelah bertahun-tahun pengembangan dan pengujian, Tesla menerima persetujuan regulator untuk berkendara sepenuhnya otonom di jalan tol California, menandai momen penting bagi industri kendaraan otonom."
+    },
+    {
+        "name": "Kebocoran keamanan siber besar: 500 juta catatan terekspos akibat salah konfigurasi penyimpanan cloud",
+        "description": "Bucket AWS S3 yang salah dikonfigurasi menyebabkan salah satu kebocoran data terbesar dalam sejarah, mengekspos informasi pribadi pengguna dari beberapa perusahaan Fortune 500 dan menyoroti pentingnya praktik terbaik keamanan cloud."
+    },
+    {
+        "name": "Microsoft memperkenalkan peninjauan kode bertenaga AI: penurunan 40% bug di produksi",
+        "description": "Sistem peninjauan kode baru Microsoft yang terintegrasi dengan GitHub menangkap bug potensial dan kerentanan keamanan sebelum penerapan, secara drastis meningkatkan kualitas kode di ribuan repositori."
+    },
+    {
+        "name": "Robot Boston Dynamics kini bekerja di gudang Amazon",
+        "description": "Amazon mengerahkan 10.000 robot Boston Dynamics di pusat pemenuhan pesanan, meningkatkan kecepatan pemrosesan paket sebesar 300% dan mengurangi cedera kerja hingga setengahnya."
+    },
+    {
+        "name": "Sarung tangan VR baru Meta memungkinkan Anda merasakan objek virtual",
+        "description": "Meta memperkenalkan sarung tangan haptik yang memberikan umpan balik sentuhan realistis dalam VR, memungkinkan pengguna merasakan tekstur, suhu, dan resistansi saat berinteraksi dengan objek digital."
+    },
+    {
+        "name": "Neuralink mulai uji coba pada manusia: pasien pertama mengendalikan komputer dengan pikiran",
+        "description": "Perusahaan antarmuka otak‑komputer milik Elon Musk menunjukkan pasien lumpuh bermain catur dan menjelajah internet hanya dengan pikiran, membuka kemungkinan baru untuk teknologi bantu."
+    },
+    {
+        "name": "Project Starline Google: panggilan video 3D tanpa headset",
+        "description": "Terobosan teknologi tampilan medan cahaya Google memungkinkan percakapan video 3D yang nyata tanpa headset VR, membuat komunikasi jarak jauh terasa alami seperti duduk di seberang meja."
+    },
+    {
+        "name": "GPU NVIDIA H200 memecahkan rekor pelatihan AI",
+        "description": "GPU pusat data terbaru NVIDIA melatih model bahasa besar lima kali lebih cepat daripada generasi sebelumnya, memungkinkan peneliti mengembangkan model AI yang lebih canggih sekaligus mengurangi konsumsi energi sebesar 40%."
+    },
+    {
+        "name": "Ethereum 3.0 meluncur: 100.000 transaksi per detik tercapai",
+        "description": "Peningkatan Ethereum yang lama dinanti menepati janji skalabilitasnya, memproses 100.000 transaksi per detik sambil menjaga desentralisasi dan menurunkan biaya gas menjadi hanya beberapa sen."
+    },
+    {
+        "name": "Starship SpaceX sukses mendarat di Bulan bersama astronot NASA",
+        "description": "Starship menyelesaikan pendaratan bulan berawak pertamanya, mengantarkan astronot NASA ke kutub selatan Bulan sebagai bagian dari misi Artemis III, menandai kembalinya umat manusia setelah 50 tahun."
+    },
+    {
+        "name": "Pengantaran drone Amazon meluas ke 100 kota di AS",
+        "description": "Amazon Prime Air mencapai tonggak saat pengiriman drone otonom kini tersedia di 100 kota di Amerika Serikat, mengirim paket dalam waktu kurang dari 30 menit dengan tingkat keberhasilan 99,9%."
+    },
+    {
+        "name": "Terapi kanker revolusioner: AI menemukan kombinasi obat yang dipersonalisasi",
+        "description": "AlphaFold 3 dari DeepMind mengidentifikasi kombinasi obat terbaik untuk pasien kanker berdasarkan profil genetik, menghasilkan tingkat remisi 80% lebih tinggi dalam uji klinis."
+    },
+    {
+        "name": "Layar OLED transparan Samsung mengubah belanja ritel",
+        "description": "Teknologi OLED transparan baru Samsung mengubah jendela toko menjadi layar interaktif, menampilkan informasi produk dan uji coba virtual sekaligus mempertahankan visibilitas produk fisik."
+    },
+    {
+        "name": "Robotaksi Waymo kini beroperasi di 25 kota besar",
+        "description": "Waymo milik Alphabet memperluas layanan taksi otonom penuh ke 25 kota, menyelesaikan lebih dari 1 juta perjalanan per hari tanpa kecelakaan yang disebabkan oleh sistem swakemudi."
+    },
+    {
+        "name": "Cat surya mencapai efisiensi 30%: setiap gedung bisa menghasilkan listrik",
+        "description": "Terobosan pada teknologi sel surya perovskit menghasilkan panel surya berbentuk cat dengan efisiensi 30%, membuatnya layak secara ekonomi untuk mengubah permukaan apa pun menjadi generator listrik."
+    },
+    {
+        "name": "Hotel antariksa Blue Origin menyambut wisatawan pertama",
+        "description": "Blue Origin milik Jeff Bezos membuka hotel antariksa komersial pertama di orbit rendah Bumi, menawarkan masa tinggal 10 hari dengan pemandangan spektakuler Bumi seharga 1 juta dolar per orang."
+    },
+    {
+        "name": "Guru AI di Korea Selatan: pendidikan yang dipersonalisasi untuk setiap siswa",
+        "description": "Korea Selatan menerapkan asisten pengajaran berbasis AI di semua sekolah negeri, menyediakan jalur belajar yang dipersonalisasi sesuai ritme dan gaya belajar setiap siswa, meningkatkan nilai ujian sebesar 35%."
+    }
+]
