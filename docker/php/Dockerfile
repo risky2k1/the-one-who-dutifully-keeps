@@ -1,9 +1,7 @@
-# syntax=docker/dockerfile:1
-
 # ==============================================================================
 # Stage 1: base — PHP-FPM runtime, required Botble/Laravel extensions & Composer
 # ==============================================================================
-FROM php:8.4-fpm-alpine3.21 AS base
+FROM php:8.4.27-fpm-alpine3.24 AS base
 
 WORKDIR /var/www/html
 
