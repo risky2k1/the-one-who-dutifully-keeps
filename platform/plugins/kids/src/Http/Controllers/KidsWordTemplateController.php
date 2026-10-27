@@ -39,12 +39,7 @@ class KidsWordTemplateController extends BaseController
     public function store(KidsWordTemplateRequest $request)
     {
         abort_unless(Auth::user()->hasPermission('kids.word-templates.create'), 403);
-        $data = $request->validated();
-        if (isset($data['var_ranges']) && is_string($data['var_ranges'])) {
-            $data['var_ranges'] = json_decode($data['var_ranges'], true) ?? [];
-        }
-
-        $template = KidsWordTemplate::query()->create($data);
+        $template = KidsWordTemplate::query()->create($request->validated());
 
         return $this
             ->httpResponse()
@@ -64,12 +59,7 @@ class KidsWordTemplateController extends BaseController
     public function update(KidsWordTemplate $wordTemplate, KidsWordTemplateRequest $request)
     {
         abort_unless(Auth::user()->hasPermission('kids.word-templates.edit'), 403);
-        $data = $request->validated();
-        if (isset($data['var_ranges']) && is_string($data['var_ranges'])) {
-            $data['var_ranges'] = json_decode($data['var_ranges'], true) ?? [];
-        }
-
-        $wordTemplate->update($data);
+        $wordTemplate->update($request->validated());
 
         return $this
             ->httpResponse()

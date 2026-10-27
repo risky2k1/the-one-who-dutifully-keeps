@@ -29,21 +29,18 @@ class KidsWordTemplateTable extends TableAbstract
             ->addHeaderAction(CreateHeaderAction::make()->route('kids.word-templates.create'))
             ->addColumns([
                 IdColumn::make(),
-                FormattedColumn::make('template')
-                    ->title('Template')
-                    ->getValueUsing(fn (FormattedColumn $col) => mb_substr($col->getItem()->template, 0, 80).(mb_strlen($col->getItem()->template) > 80 ? '...' : '')),
-                FormattedColumn::make('grade')
-                    ->title('Grade')
-                    ->getValueUsing(fn (FormattedColumn $col) => 'Grade '.$col->getItem()->grade),
-                FormattedColumn::make('operation')
+                FormattedColumn::make('body')
+                    ->title('Template Body')
+                    ->getValueUsing(fn (FormattedColumn $col) => mb_substr($col->getItem()->body, 0, 80).(mb_strlen($col->getItem()->body) > 80 ? '...' : '')),
+                FormattedColumn::make('op')
                     ->title('Operation')
-                    ->getValueUsing(fn (FormattedColumn $col) => strtoupper((string) ($col->getItem()->operation?->getValue() ?? $col->getItem()->operation))),
-                FormattedColumn::make('topic')
-                    ->title('Topic')
-                    ->getValueUsing(fn (FormattedColumn $col) => $col->getItem()->topic?->name ?: '—'),
+                    ->getValueUsing(fn (FormattedColumn $col) => $col->getItem()->op),
                 FormattedColumn::make('unit')
                     ->title('Unit')
                     ->getValueUsing(fn (FormattedColumn $col) => $col->getItem()->unit ?: '—'),
+                FormattedColumn::make('topic')
+                    ->title('Topic')
+                    ->getValueUsing(fn (FormattedColumn $col) => $col->getItem()->topic?->name ?: '—'),
                 StatusColumn::make(),
                 CreatedAtColumn::make(),
             ])
@@ -59,10 +56,9 @@ class KidsWordTemplateTable extends TableAbstract
             ->query()
             ->select([
                 'id',
-                'grade',
                 'topic_id',
-                'operation',
-                'template',
+                'body',
+                'op',
                 'unit',
                 'status',
                 'created_at',

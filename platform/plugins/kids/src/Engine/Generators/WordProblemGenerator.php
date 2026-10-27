@@ -35,6 +35,15 @@ final class WordProblemGenerator implements Generator
         $names = $config['names'] ?? ['An', 'Bình', 'Chi', 'Dũng', 'Hà', 'Linh', 'Mai', 'Nam', 'Phong', 'Vy'];
         $items = $config['items'] ?? ['quả cam', 'quả táo', 'viên bi', 'bông hoa', 'quyển vở', 'cái kẹo'];
 
+        $levelConfig = $config['levels'][$level] ?? $config['levels'][(string) $level] ?? [];
+        $allowedOps = $levelConfig['ops'] ?? null;
+        if (! empty($allowedOps) && is_array($allowedOps)) {
+            $filtered = array_values(array_filter($templates, fn ($t) => in_array($t['op'] ?? '+', $allowedOps, true)));
+            if (! empty($filtered)) {
+                $templates = $filtered;
+            }
+        }
+
         // Pick a template randomly
         $templateIndex = $rng->getInt(0, count($templates) - 1);
         $template = $templates[$templateIndex];
@@ -44,7 +53,6 @@ final class WordProblemGenerator implements Generator
 
         // Set ops for arithmetic generator to match the template's op
         $arithmeticConfig = $config;
-        $levelConfig = $config['levels'][$level] ?? $config['levels'][(string) $level] ?? [];
         $levelConfig['ops'] = [$op];
         $levelConfig['missing'] = false;
         $arithmeticConfig['levels'] = [$level => $levelConfig];
