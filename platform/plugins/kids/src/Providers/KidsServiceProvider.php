@@ -2,6 +2,8 @@
 
 namespace Botble\Kids\Providers;
 
+use Botble\Base\Facades\DashboardMenu;
+use Botble\Base\Supports\DashboardMenuItem;
 use Botble\Base\Supports\ServiceProvider;
 use Botble\Base\Traits\LoadAndPublishDataTrait;
 use Botble\Kids\Engine\GeneratorRegistry;
@@ -43,8 +45,61 @@ class KidsServiceProvider extends ServiceProvider
             ->setNamespace('plugins/kids')
             ->loadAndPublishConfigurations(['permissions', 'general'])
             ->loadAndPublishTranslations()
+            ->loadAndPublishViews()
             ->loadMigrations()
             ->loadRoutes(['web', 'api']);
+
+        DashboardMenu::default()->beforeRetrieving(function (): void {
+            DashboardMenu::make()
+                ->registerItem(
+                    DashboardMenuItem::make()
+                        ->id('cms-plugins-kids')
+                        ->priority(140)
+                        ->name('Kids Math')
+                        ->icon('ti ti-mood-kid')
+                        ->permissions(['kids.index'])
+                )
+                ->registerItem(
+                    DashboardMenuItem::make()
+                        ->id('cms-plugins-kids-topics')
+                        ->parentId('cms-plugins-kids')
+                        ->priority(10)
+                        ->name('Topics')
+                        ->icon('ti ti-books')
+                        ->route('kids.topics.index')
+                        ->permissions(['kids.topics.index'])
+                )
+                ->registerItem(
+                    DashboardMenuItem::make()
+                        ->id('cms-plugins-kids-word-templates')
+                        ->parentId('cms-plugins-kids')
+                        ->priority(20)
+                        ->name('Word Templates')
+                        ->icon('ti ti-file-text')
+                        ->route('kids.word-templates.index')
+                        ->permissions(['kids.word-templates.index'])
+                )
+                ->registerItem(
+                    DashboardMenuItem::make()
+                        ->id('cms-plugins-kids-parents')
+                        ->parentId('cms-plugins-kids')
+                        ->priority(30)
+                        ->name('Parents')
+                        ->icon('ti ti-users')
+                        ->route('kids.parents.index')
+                        ->permissions(['kids.parents.index'])
+                )
+                ->registerItem(
+                    DashboardMenuItem::make()
+                        ->id('cms-plugins-kids-reports')
+                        ->parentId('cms-plugins-kids')
+                        ->priority(40)
+                        ->name('Reports')
+                        ->icon('ti ti-alert-triangle')
+                        ->route('kids.reports.index')
+                        ->permissions(['kids.reports.index'])
+                );
+        });
 
         RateLimiter::for('kids-login', function (Request $request) {
             return Limit::perMinute(5)->by($request->ip().'|'.(string) $request->input('username'));
