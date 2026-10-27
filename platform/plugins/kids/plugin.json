@@ -1,0 +1,12 @@
+{
+    "id": "botble/kids",
+    "name": "Kids",
+    "namespace": "Botble\\Kids\\",
+    "provider": "Botble\\Kids\\Providers\\KidsServiceProvider",
+    "author": "Antigravity Studio",
+    "url": "https://github.com/the-one-who-rules-them-all",
+    "version": "1.0.0",
+    "description": "Kids Math Practice system: curriculum, question engine, parent/kid sessions, adaptive difficulty, and reporting.",
+    "minimum_core_version": "7.4.0"
+}
+
