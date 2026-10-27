@@ -1,0 +1,12 @@
+{
+    "id": "botble/portfolio",
+    "name": "Portfolio",
+    "namespace": "Botble\\Portfolio\\",
+    "provider": "Botble\\Portfolio\\Providers\\PortfolioServiceProvider",
+    "author": "Antigravity Studio",
+    "url": "https://github.com/the-one-who-rules-them-all",
+    "version": "1.0.0",
+    "description": "3D Portfolio API and Content Management for Projects, Skills, Experiences, Persona, and Destinations.",
+    "minimum_core_version": "7.4.0"
+}
+
