@@ -2,10 +2,13 @@
 
 use Botble\Kids\Http\Controllers\API\AuthController;
 use Botble\Kids\Http\Controllers\API\DeviceController;
+use Botble\Kids\Http\Controllers\API\Kid\HomeController;
 use Botble\Kids\Http\Controllers\API\Kid\SessionController;
 use Botble\Kids\Http\Controllers\API\Parent\AssignmentController;
 use Botble\Kids\Http\Controllers\API\Parent\ChildController;
 use Botble\Kids\Http\Controllers\API\Parent\PinController;
+use Botble\Kids\Http\Controllers\API\Parent\ReportController;
+use Botble\Kids\Http\Controllers\API\Parent\ResultController;
 use Botble\Kids\Http\Controllers\API\Parent\TopicController;
 use Illuminate\Support\Facades\Route;
 
@@ -37,13 +40,18 @@ Route::group([
         Route::post('assignments', [AssignmentController::class, 'store']);
         Route::patch('assignments/{assignment}', [AssignmentController::class, 'update']);
         Route::delete('assignments/{assignment}', [AssignmentController::class, 'destroy']);
+
+        Route::get('children/{child}/results', [ResultController::class, 'index']);
+        Route::get('children/{child}/weak-skills', [ResultController::class, 'weakSkills']);
+        Route::get('sessions/{session}', [ResultController::class, 'sessionReview']);
+        Route::post('questions/{question}/report', [ReportController::class, 'report']);
     });
 
     // Kid endpoints
     Route::group(['prefix' => 'me', 'middleware' => ['auth:sanctum', 'kids.token:kid']], function (): void {
-        Route::get('', function () {
-            return response()->json(['message' => 'kid home']);
-        });
+        Route::get('', [HomeController::class, 'index']);
+        Route::get('topics', [HomeController::class, 'topics']);
+        Route::get('rewards', [HomeController::class, 'rewards']);
         Route::post('sessions', [SessionController::class, 'start']);
         Route::post('sessions/{session}/questions/{question}/answer', [SessionController::class, 'answer']);
         Route::post('sessions/{session}/complete', [SessionController::class, 'complete']);
