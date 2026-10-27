@@ -2,6 +2,10 @@
 
 use Botble\Kids\Http\Controllers\API\AuthController;
 use Botble\Kids\Http\Controllers\API\DeviceController;
+use Botble\Kids\Http\Controllers\API\Parent\AssignmentController;
+use Botble\Kids\Http\Controllers\API\Parent\ChildController;
+use Botble\Kids\Http\Controllers\API\Parent\PinController;
+use Botble\Kids\Http\Controllers\API\Parent\TopicController;
 use Illuminate\Support\Facades\Route;
 
 Route::group([
@@ -19,17 +23,25 @@ Route::group([
         Route::post('children/{child}/session', [DeviceController::class, 'startKidSession']);
     });
 
+    // Parent endpoints
+    Route::group(['prefix' => 'parent', 'middleware' => ['auth:sanctum', 'kids.token:parent']], function (): void {
+        Route::get('children', [ChildController::class, 'index']);
+        Route::post('children', [ChildController::class, 'store']);
+        Route::patch('children/{child}', [ChildController::class, 'update']);
+
+        Route::put('pin', [PinController::class, 'update']);
+        Route::get('topics', [TopicController::class, 'index']);
+
+        Route::get('assignments', [AssignmentController::class, 'index']);
+        Route::post('assignments', [AssignmentController::class, 'store']);
+        Route::patch('assignments/{assignment}', [AssignmentController::class, 'update']);
+        Route::delete('assignments/{assignment}', [AssignmentController::class, 'destroy']);
+    });
+
     // Kid endpoints
     Route::group(['prefix' => 'me', 'middleware' => ['auth:sanctum', 'kids.token:kid']], function (): void {
         Route::get('', function () {
             return response()->json(['message' => 'kid home']);
-        });
-    });
-
-    // Parent endpoints
-    Route::group(['prefix' => 'parent', 'middleware' => ['auth:sanctum', 'kids.token:parent']], function (): void {
-        Route::get('children', function () {
-            return response()->json(['message' => 'parent children']);
         });
     });
 });
