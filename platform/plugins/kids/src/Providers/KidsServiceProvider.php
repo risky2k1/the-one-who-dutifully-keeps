@@ -9,6 +9,11 @@ use Botble\Kids\Engine\Generators\ArithmeticGenerator;
 use Botble\Kids\Engine\Generators\ComparisonGenerator;
 use Botble\Kids\Engine\Generators\CubeCountGenerator;
 use Botble\Kids\Engine\Generators\WordProblemGenerator;
+use Botble\Kids\Http\Middleware\EnsureKidsToken;
+use Illuminate\Cache\RateLimiting\Limit;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\RateLimiter;
 
 class KidsServiceProvider extends ServiceProvider
 {
@@ -16,6 +21,10 @@ class KidsServiceProvider extends ServiceProvider
 
     public function register(): void
     {
+        /** @var Router $router */
+        $router = $this->app['router'];
+        $router->aliasMiddleware('kids.token', EnsureKidsToken::class);
+
         $this->app->singleton(GeneratorRegistry::class, function () {
             $registry = new GeneratorRegistry;
             $arithmetic = new ArithmeticGenerator;
@@ -36,5 +45,15 @@ class KidsServiceProvider extends ServiceProvider
             ->loadAndPublishTranslations()
             ->loadMigrations()
             ->loadRoutes(['web', 'api']);
+
+        RateLimiter::for('kids-login', function (Request $request) {
+            return Limit::perMinute(5)->by($request->ip().'|'.(string) $request->input('username'));
+        });
+
+        RateLimiter::for('kids-pin', function (Request $request) {
+            $token = $request->user()?->currentAccessToken();
+
+            return Limit::perMinute(5)->by($token ? (string) $token->id : (string) $request->ip());
+        });
     }
 }
