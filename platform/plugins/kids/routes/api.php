@@ -2,6 +2,7 @@
 
 use Botble\Kids\Http\Controllers\API\AuthController;
 use Botble\Kids\Http\Controllers\API\DeviceController;
+use Botble\Kids\Http\Controllers\API\Kid\SessionController;
 use Botble\Kids\Http\Controllers\API\Parent\AssignmentController;
 use Botble\Kids\Http\Controllers\API\Parent\ChildController;
 use Botble\Kids\Http\Controllers\API\Parent\PinController;
@@ -43,5 +44,8 @@ Route::group([
         Route::get('', function () {
             return response()->json(['message' => 'kid home']);
         });
+        Route::post('sessions', [SessionController::class, 'start']);
+        Route::post('sessions/{session}/questions/{question}/answer', [SessionController::class, 'answer']);
+        Route::post('sessions/{session}/complete', [SessionController::class, 'complete']);
     });
 });
